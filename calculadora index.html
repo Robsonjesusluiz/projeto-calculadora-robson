@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./calculadora.js" defer></script>
+    <link rel="stylesheet" href="./calculadora.css">
+    <link rel="icon" type="image/png" href="./assets/escudo javascript.png">
+    <title>Robsilson Calculadora</title>
+
+</head>
+
+<body>
+
+    <video autoplay loop muted playsinline id="bg-video">
+        <!-- Certifique-se de mudar a extensão para .mp4, .webm ou outro formato de vídeo válido -->
+        <source src="./assets/4118855533-preview.mp4" type="video/mp4">
+    </video>
+
+
+    <div class="calculator">
+        <div class="display">
+            <div class="expression" id="expression"></div>
+            <div class="result" id="result">0</div>
+        </div>
+        <div class="buttons">
+            <button class="clear" onclick="clearDisplay()">C</button>
+            <button class="operator" onclick="appendOperator('/')">/</button>
+            <button class="operator" onclick="appendOperator('*')">×</button>
+            <button class="operator" onclick="deleteLast()">⌫</button>
+
+            <button onclick="appendNumber('7')">7</button>
+            <button onclick="appendNumber('8')">8</button>
+            <button onclick="appendNumber('9')">9</button>
+            <button class="operator" onclick="appendOperator('-')">-</button>
+
+            <button onclick="appendNumber('4')">4</button>
+            <button onclick="appendNumber('5')">5</button>
+            <button onclick="appendNumber('6')">6</button>
+            <button class="operator" onclick="appendOperator('+')">+</button>
+
+            <button onclick="appendNumber('1')">1</button>
+            <button onclick="appendNumber('2')">2</button>
+            <button onclick="appendNumber('3')">3</button>
+            <button onclick="appendNumber('.')">.</button>
+            <button onclick="appendNumber('0')" style="grid-column: span 2;">0</button>
+
+            <button class="equal" onclick="calculate()">=</button>
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>

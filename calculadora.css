@@ -1,0 +1,132 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        #bg-video {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
+            /* Faz o vídeo cobrir a tela sem distorcer, cortando as bordas se necessário */
+            z-index: -1;
+            /* Envia o vídeo para trás de todo o conteúdo do site */
+        }
+
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #1d0949;
+        }
+
+        .calculator {
+            background-color: #d0c1e2;
+            padding: 10px;
+            border-radius: 32px;
+            box-shadow: 0 39px 51px 7px rgba(235, 231, 15, 0.3), 0 10px 10px -5px rgb(226 26 26 / 22%);
+            width: 340px;
+            height: 641px;
+        }
+
+        /* Visor da Calculadora */
+        .display {
+            background-color: #0f172a;
+            padding: 20px;
+            border-radius: 16px;
+            text-align: right;
+            margin-bottom: 24px;
+            min-height: 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            overflow: hidden;
+        }
+
+        .display .expression {
+            color: #94a3b8;
+            font-size: 1.1rem;
+            min-height: 24px;
+            word-wrap: break-word;
+            word-break: break-all;
+        }
+
+        /* Cor do resultado destacada conforme solicitado */
+        .display .result {
+            color: #38bdf8;
+            /* Azul ciano vibrante para o resultado */
+            font-size: 2.2rem;
+            font-weight: 600;
+            word-wrap: break-word;
+            word-break: break-all;
+            transition: color 0.2s ease;
+        }
+
+        /* Quando for um erro, muda a cor do visor */
+        .display .result.error {
+            color: #f87171;
+            /* Vermelho suave para erros */
+        }
+
+        /* Grade de Botões */
+        .buttons {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 12px;
+        }
+
+        button {
+            border: none;
+            padding: 20px;
+            font-size: 1.4rem;
+            font-weight: 500;
+            border-radius: 12px;
+            cursor: pointer;
+            color: #f8fafc;
+            background-color: #334155;
+            transition: background-color 0.15s ease, transform 0.1s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Efeito visual de cor leve ao pressionar (Clique) */
+        button:active {
+            transform: scale(0.95);
+            background-color: rgba(56, 189, 248, 0.3) !important;
+            /* Feedback visual leve em azul */
+        }
+
+        /* Cores customizadas por tipo de botão */
+        button.operator {
+            background-color: #0284c7;
+            color: #fff;
+        }
+
+        button.operator:active {
+            background-color: rgba(56, 189, 248, 0.5) !important;
+        }
+
+        button.clear {
+            background-color: #ef4444;
+            color: #fff;
+        }
+
+        button.clear:active {
+            background-color: rgba(239, 68, 68, 0.5) !important;
+        }
+
+        button.equal {
+            background-color: #10b981;
+            color: #fff;
+            grid-column: span 2;
+        }
+
+        button.equal:active {
+            background-color: rgba(16, 185, 129, 0.5) !important;
+        }
