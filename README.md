@@ -42,7 +42,9 @@ O grande diferencial deste projeto foi o **fluxo de desenvolvimento e design int
 
 ## 📸 Demonstração da Interface
 
-<p align="center"><img src="https://github.com/Robsonjesusluiz/Projeto-calculadora/blob/main/assets/calculadora%20Robsilson.png?raw=true" alt="Link do Projeto" style="height: 200%;"></p>
+<p align="center">
+  <img src="https://github.com/Robsonjesusluiz/projeto-calculadora-robson/blob/main/assets/calculadora%20Robsilson.png?raw=true" alt="Link do Projeto" style="width: 200px; height: auto;">
+</p>
 
 <br>
 <a href="https://robsonjesusluiz.github.io/projeto-calculadora-robson/" target="_blank">🧮Visualização do sistema desenvolvido:</a>
