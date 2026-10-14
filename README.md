@@ -1,3 +1,5 @@
-<h1>calculadora</h1>
-<br>
-<img src="https://github.com/Robsonjesusluiz/Projeto-Calculadora/blob/main/assets/tela%20pc%20calculadora.png?raw=true"; alt="Calculadora Robsilson"/>
+<h1>Calculadora</h1>
+
+<p align="center">
+  <img src="https://github.com/Robsonjesusluiz/Projeto-Calculadora/blob/main/assets/calculadora%20Robsilson.png?raw=true" alt="Texto Alternativo" width="300">
+</p>
