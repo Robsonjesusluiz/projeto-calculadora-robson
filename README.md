@@ -1,4 +1,4 @@
-# 🧮 Robsilson Calculadora Inteligente
+# 🧮 Robsilson Calculadora ⚡
 <br>
 <br>
 <img src="https://github.com/Robsonjesusluiz/projeto-calculadora-robson/blob/main/assets/tela%20pc%20calculadora.png?raw=true"/>
@@ -6,66 +6,73 @@
 <a href="https://robsonjesusluiz.github.io/projeto-calculadora-robson/" target="_blank">🧮:Veja e Teste</a>
 <br>
 <br>
-Descrição:<br>
+Uma aplicação moderna e intuitiva de cálculos matemáticos que une o desenvolvimento web tradicional (HTML5, CSS3, JavaScript) ao design ágil e refinamento de interface potencializados por Inteligência Artificial.
+---
 <br>
-Uma calculadora moderna e responsiva que une as tecnologias fundamentais da web (**HTML5, CSS3, JavaScript**) ao poder da inteligência artificial, utilizando as APIs de **IA Nano Banana** e **IA Gemini Texto**. 
+<br>
+## 📌 Sobre o Projeto
 
-Este projeto vai além de uma simples ferramenta de cálculo: ele representa um marco importante no meu desenvolvimento como programador rumo ao desenvolvimento Full-Stack.
+O **Robsilson Calculadora** é uma ferramenta digital interativa projetada para fornecer operações matemáticas de forma fluida, limpa e totalmente responsiva. Com um forte foco na experiência do usuário (UX), a aplicação apresenta botões táteis bem definidos e um fluxo visual minimalista estruturado de ponta a ponta.
 
----
-
-## 🚀 Utilidade do Projeto
-
-A **Robsilson Calculadora** foi desenhada para oferecer uma experiência de usuário fluida e inteligente. 
-* **Cálculos Rápidos:** Interface intuitiva para operações matemáticas tradicionais.
-* **Integração com IA:** Capaz de processar contextos mais complexos através de modelos de inteligência artificial de texto, unindo a precisão matemática convencional à flexibilidade da IA.
-* **Design Responsivo:** Totalmente adaptada para telas de dispositivos móveis e desktops.
+O grande diferencial deste projeto foi o **fluxo de desenvolvimento e design integrado**:
+* **Apoio Criativo & Elementos Visuais:** Layout focado em componentes modernos de UI/UX, utilizando ilustrações inclusivas e paleta de cores harmoniosa para tornar o uso diário leve e amigável.
+* **Refinamento de Código & Estrutura:** Otimização lógica estruturada com assistência de ferramentas de Inteligência Artificial para garantir que o CSS3 e as funções JavaScript seguissem as melhores práticas de Clean Code.
 
 ---
 
-## 🛠️ Ferramentas Utilizadas
+## 🚀 Funcionalidades Principais
 
-O ecossistema do projeto foi construído utilizando tecnologias consolidadas e inovações do mercado de IA:
-
-* **HTML5:** Estruturação semântica e acessível da interface.
-* **CSS3:** Estilização moderna, layouts flexíveis e design focado na experiência do usuário (UX).
-* **JavaScript (ES6+):** Lógica principal da calculadora, manipulação do DOM e gerenciamento de estados.
-* **IA Nano Banana:** Integração de inteligência artificial para otimização de fluxos locais.
-* **IA Gemini Texto:** Processamento avançado de linguagem natural integrado à aplicação.
+* **Operações Básicas Completas:** Soma, subtração, multiplicação e divisão ao alcance de um clique.
+* **Interface Responsiva:** Design otimizado para celulares e computadores, mantendo os botões sempre acessíveis e fáceis de usar.
+* **Lógica Avançada de Teclado:** Suporte para limpar a tela (`C`), deletar o último dígito individualmente (`⌫`) e cálculo direto com o botão de igualdade (`=`).
 
 ---
 
-## 🧗 Desenvoltura & Desafios Superados
+## 🛠️ Tecnologias e Ferramentas Utilizadas
 
-Criar esta calculadora exigiu ir muito além do básico. O maior desafio foi **sincronizar a lógica síncrona dos botões matemáticos com a assincronia e as requisições das APIs de IA**. 
+### Front-end
+* **HTML5:** Estruturação semântica de toda a grade de botões e tela do visor.
+* **CSS3:** Estilização moderna, efeitos de hover dinâmicos nos botões e propriedades de layout flexível (Flexbox/Grid).
+* **JavaScript (ES6+):** Lógica matemática complexa, manipulação do DOM e gerenciamento de memória em tempo real para os cálculos.
 
-Dominar o fluxo de dados em JavaScript, lidar com tratamento de erros de rede e garantir que a interface não travasse enquanto a IA respondia foram barreiras complexas. Superar essas dificuldades me deu uma desenvoltura muito maior em:
-* Consumo e integração de APIs assíncronas.
-* Manipulação avançada de eventos no JavaScript.
-* Resolução criativa de problemas de lógica de programação.
-
----
-
-## 📈 Aprimoramento da Capacidade
-
-Atualmente, sou estudante no **[DevClub](https://www.devclub.com.br/)**, focado na trilha de aprendizado voltada ao **desenvolvimento Full-Stack**. 
-
-Este projeto reflete diretamente essa evolução. Ele consolidou minha base de Front-End e me deu maturidade para arquitetar soluções que conversam com serviços externos (IA). Cada linha de código escrita aqui expandiu minha capacidade técnica e minha visão analítica como desenvolvedor.
+### Assistência Técnica (Design & Estilização)
+* **Google AI / Gemini:** Copilot para melhorias na organização de folhas de estilo CSS3 e validação da lógica JavaScript.
 
 ---
 
-## 🎯 Objetivo Profissional
+## 📸 Demonstração da Interface
 
-Estou ativamente buscando oportunidades para **engajar em uma equipe como Desenvolvedor Web Júnior**. Estou pronto para aplicar essa bagagem técnica, aprender rápido e somar valor ao seu time de tecnologia!
+<p align="center">
+   <img src=""/>
+</p>
 
-<img src="https://github.com/Robsonjesusluiz/Projeto-calculadora/blob/main/assets/calculadora%20Robsilson.png?raw=true" width="100">
+  <br>
+<a href="https://robsonjesusluiz.github.io/projeto-calculadora-robson/" target="_blank">🧮Visualização do sistema desenvolvido:</a>
+
 
 ---
 
-## 📬 Contato
+## 👨‍💻 Como Executar o Projeto Localmente
 
-Vamos conversar sobre tecnologia ou oportunidades de trabalho? Conecte-se comigo:
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com
+   ```
+2. Navegue até a pasta do projeto:
+   ```bash
+   cd Projeto-Calculadora
+   ```
+3. Abra o arquivo `index.html` diretamente no seu navegador ou utilize a extensão **Live Server** no VS Code.
 
-* **LinkedIn:** [Robson J. Luiz](https://www.linkedin.com/in/robson-j-luiz/)
-* **GitHub:** [@Robsonjesusluiz](https://github.com/Robsonjesusluiz)
-* **E-mail:** [robbluiz59@gmail.com](mailto:robbluiz59@gmail.com)
+---
+
+## 🤝 Contato & Conexões
+
+Se você é um recrutador ou desenvolvedor e gostou do projeto, vamos conversar! Estou focado em desenvolvimento Full Stack e pronto para somar ao seu time técnico.
+
+* **🐙 GitHub:** [Robsonjesusluiz](https://github.com/Robsonjesusluiz)
+* **💼 LinkedIn:** [Robson J. Luiz](https://linkedin.com)
+* **📧 E-mail:** [robbluiz59@gmail.com](mailto:robbluiz59@gmail.com)
+
+---
+<p align="center">Desenvolvido com 💻, 🧠 e IA por Robson J. Luiz.</p>
