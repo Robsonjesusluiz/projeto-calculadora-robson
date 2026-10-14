@@ -58,7 +58,7 @@ Este projeto reflete diretamente essa evolução. Ele consolidou minha base de F
 
 Estou ativamente buscando oportunidades para **engajar em uma equipe como Desenvolvedor Web Júnior**. Estou pronto para aplicar essa bagagem técnica, aprender rápido e somar valor ao seu time de tecnologia!
 
-<img src="https://github.com/Robsonjesusluiz/Projeto-calculadora/blob/main/assets/calculadora%20Robsilson.png?raw=true"/>
+<img src="https://github.com/Robsonjesusluiz/Projeto-calculadora/blob/main/assets/calculadora%20Robsilson.png?raw=true" width="100">
 
 ---
 
